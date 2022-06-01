@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+    <html>
+        <head>
+          {% load static %}
+
+            <title>Future of Automobile</title>   
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+            <link rel="stylesheet" href="{% static 'app1/stylesheet.css' %}">
+        </head>
+        
+        <body id="bg" style="background-image: url('{% static "app1/images/c.jpg" %}') ;" >
+          
+            <br>
+            <h1>&nbsp;Future of Automobile...</h1>
+
+            <hr>
+
+            <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="https://en.wikipedia.org/wiki/History_of_the_automobile#:~:text=Production%20vehicles%20began%20appearing%20in,on%20a%20moving%20assembly%20line." 
+                target="_blank">History</a>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="https://www.sciencefocus.com/future-technology/the-future-of-cars/" 
+                target="_blank">Future of Automobile</a> 
+
+                &nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="https://www.cars24.com/blog/whats-next-realm-vehicle-technology/" 
+                target="_blank">New Technology</a>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="https://www.google.com/search?sa=X&rlz=1C1VDKB_enIN960IN961&source=univ&tbm=isch&q=Flying+cars+in+the+future&fir=tmbL2Ua6uO2C6M%252C2Dkel-gW1ev6UM%252C_&usg=AI4_-kRdc6fq_WJ8QBRXnFLzZgs1W3oG4Q&ved=2ahUKEwjbrpDtwYv4AhXS8jgGHeSlAqsQ7Al6BAgNEAI&biw=1517&bih=631&dpr=0.9" 
+                target="_blank">Flying Cars</a>
+              
+                &nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="https://www.google.com/search?q=future+vehicles&rlz=1C1VDKB_enIN960IN961&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjR7fbExYv4AhWU7TgGHRA_BeUQ_AUoAXoECAIQAw&biw=1517&bih=631&dpr=0.9" 
+                target="_blank">Vehicals in Future</a>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="https://www.google.com/search?q=future+trains&tbm=isch&chips=q:future+trains,g_1:sci+fi:HIMGUOKa_bs%3D&rlz=1C1VDKB_enIN960IN961&hl=en&sa=X&ved=2ahUKEwiCr7D7xov4AhWW_DgGHV0FAZUQ4lYoAXoECAEQHg&biw=1498&bih=631" 
+                target="_blank">Trains</a>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="https://www.google.com/search?q=futuristic+plane&tbm=isch&ved=2ahUKEwiRr9yEyIv4AhVc_zgGHRBTAeoQ2-cCegQIABAA&oq=futuristic+plane&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQQzoGCAAQHhAIOgQIABAYOggIABCABBCxA1CGkAFYtqMBYOevAWgBcAB4AIABogKIAfoOkgEGMC4xMi4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=vv6WYpHYIdz-4-EPkKaF0A4&bih=631&biw=1517&rlz=1C1VDKB_enIN960IN961" 
+                target="_blank">Plane</a>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand" href="https://www.google.com/search?q=futuristic+cycle&rlz=1C1VDKB_enIN960IN961&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjC_IGDyIv4AhUi8zgGHSO_C7EQ_AUoAXoECAEQAw&biw=1517&bih=631&dpr=0.9" 
+                target="_blank">Cycle</a>
+              
+                <!-- Links -->
+                <ul class="navbar-nav" >
+        
+                  
+                <!-- Dropdown -->
+                    <li class="navbar-brand dropdown">
+                      &nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-brand dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Images
+                    </a>
+                    <div class="dropdown-menu">
+                        
+                        <a class="dropdown-item" href="https://wallpaperboat.com/wallpapers/vehicles" target="_blank">
+                          Sports Cars</a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=future+trucks&rlz=1C1VDKB_enIN960IN961&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjVsaO2w4v4AhVs8zgGHVxWDXkQ_AUoAXoECAEQAw&biw=1517&bih=631&dpr=0.9" target="_blank">
+                          Future Trucks</a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=sports+bike+in+future&tbm=isch&ved=2ahUKEwj95OfYxIv4AhWT_jgGHXRGCCgQ2-cCegQIABAA&oq=sports+bike+in+future&gs_lcp=CgNpbWcQDFC3BFi3BGD_CmgAcAB4AIABgQGIAfcBkgEDMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=PfuWYr3SCZP94-EP9IyhwAI&bih=694&biw=1517&rlz=1C1VDKB_enIN960IN961" target="_blank">
+                          Sports Bike</a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=vintage+car+hd+images&tbm=isch&ved=2ahUKEwiestDGoIv4AhV4BrcAHaRDBzkQ2-cCegQIABAA&oq=vin+car+images+hd&gs_lcp=CgNpbWcQARgAMggIABAeEAgQBzoECAAQQzoFCAAQgAQ6BggAEB4QCDoGCAAQHhAHOgcIABCxAxBDOggIABAeEAcQBVCPB1itFWCFKWgBcAB4AIABfYgBswaSAQMwLjeYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=V9WWYt6qFfiM3LUPpIedyAM&bih=694&biw=1517&rlz=1C1VDKB_enIN960IN961" target="_blank">
+                          Vintage Cars</a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=vintage+Truck+hd+images&tbm=isch&ved=2ahUKEwjAv-7MoIv4AhWnk9gFHW4MBp4Q2-cCegQIABAA&oq=vintage+Truck+hd+images&gs_lcp=CgNpbWcQAzoFCAAQgAQ6BggAEB4QB1CjIViENmDyP2gAcAB4AIABeYgB4geSAQMwLjmYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ZNWWYsD9Gaen4t4P7piY8Ak&bih=694&biw=1517&rlz=1C1VDKB_enIN960IN961" target="_blank">
+                          Vintage Trucks</a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=vintage+bikes&rlz=1C1VDKB_enIN960IN961&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjBv5rkwov4AhXup1YBHe5DDMMQ_AUoAXoECAIQAw&biw=1517&bih=631&dpr=0.9" target="_blank">
+                          Vintage Bikes</a>
+                    </div>
+
+                    <!-- Dropdown -->
+                    <li class="navbar-brand dropdown">
+                      <a class="navbar-brand dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Videos
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://www.youtube.com/results?search_query=futuristic+car+" target="_blank">Future Cars</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/results?search_query=futuristic+bike" target="_blank">Future Bikes</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/results?search_query=flying+car" target="_blank">Flying Cars</a>
+                    </div>
+
+                    </li>
+                    <form class="form-inline" action="https://www.google.co.in/search?q=" target="_blank">
+                        <button class="btn btn-success" type="submit">Search...</button>
+                    </form>
+                
+                </ul>
+            </nav>
+        
+            
+      
+    
+        </body>
+    </html>
